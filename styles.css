@@ -6,15 +6,16 @@ padding: 8vw;
 margin: 0;}
 
 .side{grid-area: side;
-    background-color: rgb(212, 176, 218);
+    background-color: rgb(135, 148, 89);
     text-align: center;
     padding: 7.75vw;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .box{grid-area: box;
-    background-color: rgb(206, 228, 202);
-
+    background-color: rgb(97, 231, 73);
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column; /* Stacks the items on top of each other */
     align-items: center; /* Optional: Centers the items horizontally */
