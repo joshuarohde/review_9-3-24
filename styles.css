@@ -1,0 +1,40 @@
+
+.header{grid-area: header;
+background-color: rgb(189, 211, 228);
+text-align: center;
+padding: 8vw;
+margin: 0;}
+
+.side{grid-area: side;
+    background-color: rgb(212, 176, 218);
+    text-align: center;
+    padding: 7.75vw;
+    margin: 0;
+}
+
+.box{grid-area: box;
+    background-color: rgb(206, 228, 202);
+
+    display: flex;
+    flex-direction: column; /* Stacks the items on top of each other */
+    align-items: center; /* Optional: Centers the items horizontally */
+    justify-content: center; /* Optional: Centers the items vertically */
+  }
+
+
+p{font-size: 3vw;}
+h1{font-size: 3vw;}
+
+
+.gridding{
+    display: grid;
+    grid-template-areas:
+      'header header header header'
+      'side box box box'
+      'side box box box';
+  }
+
+body{
+align-items: center;
+margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
